@@ -64,7 +64,6 @@ header {
 
 section {
   height: 700px;
-  margin-top: 100px;
 }
 
 .section-left {
@@ -88,6 +87,14 @@ section {
 .mobile-right,
 .compart-right {
   float: right;
+}
+
+.section-box {
+  margin-top: 70px;
+}
+
+.section-leading {
+  margin-top: 140px;
 }
 
 h1,
