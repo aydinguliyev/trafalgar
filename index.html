@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -40,12 +44,7 @@
           <button class="consult">Consult today</button>
         </div>
         <div class="section-right">
-          <img
-            src="./assets/image/health.png"
-            alt="health"
-            width="693px"
-            height="598px"
-          />
+          <img class="img-main" src="./assets/image/health.png" alt="health" />
         </div>
       </section>
       <nav>
@@ -109,42 +108,185 @@
       <section>
         <div class="compart-left">
           <img
+            class="img-main"
             src="./assets/image/provider-helth.png"
             alt="health"
-            width="693px"
-            height="598px"
           />
         </div>
         <div class="compart-right">
           <h2 class="leading">Leading healthcare providers</h2>
+          <div class="service-line download"></div>
+
           <p class="healthcare">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
           </p>
-          <button class="consult">Consult today</button>
+          <button class="consult">Learn more</button>
         </div>
       </section>
 
       <section>
         <div class="mobile-left">
           <h2 class="leading">Download our mobile apps</h2>
+          <div class="service-line download"></div>
+
           <p class="healthcare">
             Our dedicated patient engagement app and web portal allow you to
             access information instantaneously (no tedeous form, long calls, or
             administrative hassle) and securely
           </p>
-          <button class="consult">Consult today</button>
+          <button class="consult">
+            Download <i class="fas fa-arrow-down"></i>
+          </button>
         </div>
         <div class="mobile-right">
           <img
+            class="img-main"
             src="./assets/image/mobile-app.png"
             alt="health"
-            width="693px"
-            height="598px"
           />
         </div>
       </section>
+      <section class="profil-containet">
+        <img class="blue" src="./assets/image/blue.png" alt="" />
+        <div class="profil">
+          <h3 class="profil-title">What our customer are saying</h3>
+          <div class="hr"><hr /></div>
+          <div class="profil-details">
+            <div class="profil-img-box">
+              <img class="profil-img" src="./assets/image/myphoto.jpg" alt="" />
+            </div>
+            <div class="profil-name-box">
+              <h3>Aydin K. Guliyev</h3>
+              <p>Founder Circle</p>
+            </div>
+            <div class="profil-info-box">
+              “Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely”
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <i class="fas fa-long-arrow-alt-left"></i>
+          <ul class="pagination-list-box">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </section>
+      <section class="cards">
+        <h3 class="services">Check out our latest article</h3>
+        <div class="service-line"></div>
+        <div class="cards-box">
+          <div class="card">
+            <img
+              src="./assets/image/card1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Disease detection, check up in the laboratory
+              </h5>
+              <p class="card-text">
+                In this case, the role of the health laboratory is very
+                important to do a disease detection...
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Read more <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./assets/image/card2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Herbal medicines that are safe for consumption
+              </h5>
+              <p class="card-text">
+                Herbal medicine is very widely used at this time because of its
+                very good for your health...
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Read more <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/image/card3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Natural care for healthy facial skin</h5>
+              <p class="card-text">
+                A healthy lifestyle should start from now and also for your skin
+                health. There are some...
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Read more <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <button class="learn">View all</button>
+      </section>
     </main>
+    <footer>
+      <img src="./assets/image/bgfooter.png" alt="" width="100%" />
+      <div class="footer-container">
+        <div class="footer-box">
+          <div class="footer-left">
+            <div class="logo">T</div>
+            <div class="title">Trafalgar</div>
+          </div>
+          <ul class="footer-list-box">
+            <li>
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </li>
+            <li>&copy; Trafalgar PTY LTD 2020. All rights reserved</li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3>Company</h3>
+          <ul class="footer-list-box">
+            <li>About</li>
+            <li>Testimonials</li>
+            <li>Find a doctor</li>
+            <li>Apps</li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3>Region</h3>
+          <ul class="footer-list-box">
+            <li>Azerbaijan</li>
+            <li>Turkey</li>
+            <li>America</li>
+            <li>Hongkong</li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3>Help</h3>
+          <ul class="footer-list-box">
+            <li>Help center</li>
+            <li>Contact support</li>
+            <li>Instructions</li>
+            <li>How it works</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
