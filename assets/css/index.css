@@ -64,7 +64,7 @@ header {
 
 section {
   height: 700px;
-  margin-top: 84px;
+  margin-top: 100px;
 }
 
 .section-left {
@@ -232,6 +232,10 @@ div.profil {
   font-size: 19px;
   line-height: 30px;
   font-weight: 200;
+}
+
+nav {
+  margin-top: 80px;
 }
 
 .profil-name-box {
